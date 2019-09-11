@@ -214,6 +214,7 @@ function sendPayment(outcome) {
       dataType: 'json',
       data: {
         amount: result.amount,
+        total_to_pay: result.total_to_pay,
         outcome: outcome,
         origin: result.origin,
         register_id: result.register_id
